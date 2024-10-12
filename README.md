@@ -1,5 +1,5 @@
 # First-site
-Este projeto tem caratér educativo e faz parte das atividades do terceiro módulo do curso fullstack da +praTi.
+Este projeto tem carater educativo e faz parte das atividades do terceiro módulo do curso fullstack da +praTi.
 O repositório first-site, tras o meu primeiro site, desenvolvido no curso fullstack da +prati.
 Trata do desenvolvimento de uma página web utilizando os conhecimentos de HTML e CSS adiquiridos no curso, com os principais 
 elementos de uma estrutura de site.
