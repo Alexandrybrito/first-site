@@ -44,4 +44,5 @@ Além dos critérios solicitados, procurei utilizar elementos que aprimoram a ex
 [optmizilla](https://imagecompressor.com/pt/)
 ### Validações W3C
 [HTML](https://validator.w3.org/nu/#file.html)
+
 [CSS](https://jigsaw.w3.org/css-validator/)
