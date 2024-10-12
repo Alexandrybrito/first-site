@@ -27,7 +27,7 @@ Requisitos Mínimos:
 - Os links no menu de navegação e no aside devem ser clicáveis (mesmo que levem a 
 páginas fictícias).
 
-Além dos critérios solicitados, procurei utilizar elementos que aprimoracem a experiênca do usuário, deixando o site moderno e responsivo, duscando o conhecimento necessário nas documentações.
+Além dos critérios solicitados, procurei utilizar elementos que aprimoram a experiênca do usuário, deixando o site moderno e responsivo, buscando o conhecimento necessário nas documentações.
 
 ## Links
 ### Planejamento
@@ -42,3 +42,6 @@ Além dos critérios solicitados, procurei utilizar elementos que aprimoracem a 
 [iconfinder](https://www.iconfinder.com/)
 
 [optmizilla](https://imagecompressor.com/pt/)
+### Validações W3C
+[HTML](https://validator.w3.org/nu/#file.html)
+[CSS](https://jigsaw.w3.org/css-validator/)

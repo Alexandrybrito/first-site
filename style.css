@@ -1,0 +1,68 @@
+/* Folha de estilo do Meu primeiro Site HTML5 e CSS3
+   @author AlexandryBrito
+   alexandrybrito@gmail.com 
+*/
+
+
+/* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* Layout */
+/* Cabeçalho */
+header {
+    height: 60px;
+}
+
+#logo img {
+    width: 170px;
+    height: 130px;
+}
+
+/* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 576px) {
+    body {
+        background-color: #0ff;
+    }
+
+    /* Layout */
+    .container {
+        max-width: 540px;
+    } 
+}
+
+
+/* Tablet portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 768px) {
+    body {
+        background-color: #ff0;
+    }
+
+    /* Layout */
+    .container {
+        max-width: 720px;
+    }
+}
+
+
+/* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 992px) {
+    body {
+        background-color: #ff6600;
+    }
+
+    /* Layout */
+    .container {
+        max-width: 960px;
+    }
+}
+
+
+/* PC e Notebook >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 1200px) {
+    body {
+        background-color: #f0f;
+    }
+
+    /* Layout */
+    .container {
+        max-width: 1140px;
+    }
+}
