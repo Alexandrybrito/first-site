@@ -29,6 +29,17 @@ body {
     justify-content: space-between;
 }
 
+.Botao {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 600;
+    background-color: #c00;
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+}
+
 /* topo do site */
 #topo {
     position: fixed;
@@ -75,6 +86,7 @@ nav ul {
 nav ul li {
     padding: 20px;
     border-bottom: 1px solid #a9a9a9;
+    background-size: cover;
 }
 
 nav ul li a {
@@ -82,12 +94,43 @@ nav ul li a {
     color: #fff;
 }
 
+/* Destaque */
+main {
+    height: 75vh;
+    background: url(img/HTML5CSS3-1500x600.png);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 2.5em;
+}
+
+main h2 {
+    font-size: 1em;
+    margin: 20px 0px 50px 0px;
+}
+
+main h1, main h2 {
+    text-shadow: #000 0.2em 0.2em 0.1em;
+}
+
+
+
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px) {
     /* Layout */
     .container {
         max-width: 540px;
-    } 
+    }
+
+    /* Destaque */
+    main h1, main h2 {
+        text-shadow: #000 0.2em 0.2em 0.1em;
+    }
 }
 
 
@@ -97,6 +140,19 @@ nav ul li a {
     .container {
         max-width: 720px;
     }
+
+    /* Destaque */
+    main {
+        height: 45vh;
+    }
+
+    main h1 {
+        font-size: 5.5em;
+    }
+
+    main h2 {
+        font-size: 2em;
+    }
 }
 
 
@@ -105,6 +161,11 @@ nav ul li a {
     /* Layout */
     .container {
         max-width: 960px;
+    }
+
+    /* Destaque */
+    main {
+        height: 70vh;
     }
 }
 
