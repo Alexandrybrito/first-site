@@ -30,6 +30,19 @@ páginas fictícias).
 Além dos critérios solicitados, procurei utilizar elementos que aprimoram a experiênca do usuário, deixando o site moderno e responsivo, buscando o conhecimento necessário nas documentações.
 
 ## Links
+[HTML e CSS Pro](https://www.youtube.com/watch?v=1RDa9aNlG2k)
+
+[W3school](https://www.w3schools.com/html/)
+
+[MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/)
+
+[+praTi](https://maisprati.com.br/)
+
+[IlustraDev](https://www.youtube.com/watch?v=0409yssD3vk)
+
+[dpw](https://www.youtube.com/watch?v=YNqrNqpq6-E)
+
+[Ilustrativo](google.com - linkedin.com - youtube.com - facebook.com - instagran.com - twitter.com )
 ### Planejamento
 [cetic](https://www.cetic.br/)
 ### Tipografia
