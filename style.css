@@ -40,6 +40,18 @@ body {
     justify-content: space-evenly;
 }
 
+.Flex4 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.Flex5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
 .Botao {
     text-decoration: none;
     color: #fff;
@@ -163,13 +175,13 @@ main h2 {
 }
 
 main h1, main h2 {
-    text-shadow: #000 0.2em 0.2em 0.1em;
+    text-shadow: #000 0.1em 0.1em 0.1em;
 }
 
 /* Sobre */
 #sobre {
     padding: 10px 10px 10px;
-    max-width: 100%;
+    width: auto;
     background: url(img/background.png);
     background-size: cover;
     background-position: center;
@@ -202,7 +214,7 @@ aside ul li a {
 
 /* Conteudo */
 #conteudo {
-    padding: 50px 0px;
+    padding: 35px 0px;
 }
 
 #conteudo h2 {
@@ -210,6 +222,42 @@ aside ul li a {
     text-align: center;
 }
 
+/* Rodapé */
+address {
+    padding: 35px 10px 50px 10px;
+    background: url(img/background2.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+address a {
+    text-decoration: none;
+    color: #fff;
+}
+
+address img {
+    padding-top: 15px;
+}
+
+#iconeLocal {
+    display: none;
+}
+
+#googleMaps {
+    display: none;
+}
+
+footer {
+    padding: 50px;
+    background-color: #343538;
+    color: #fff;
+    text-align: center;
+}
+
+#social {
+    margin-top: 25px;
+}
 
 
 
@@ -223,6 +271,17 @@ aside ul li a {
     /* Destaque */
     main h1, main h2 {
         text-shadow: #000 0.2em 0.2em 0.1em;
+    }
+
+    /* Rodapé */
+    .Flex4 {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #social {
+        margin: 0;
     }
 }
 
@@ -350,6 +409,23 @@ aside ul li a {
         margin-right: 30px;
         margin-left: 10px;
         margin-top: 10px;
+    }
+
+    /* Rodapé */
+    #iconeLocal {
+        display: inline;
+    }
+
+    #iconeMapa {
+        display: none;
+    }
+
+    #googleMaps {
+        display: inline;
+    }
+
+    .Flex5 {
+        flex-direction: row-reverse;
     }
 
 }
