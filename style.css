@@ -29,6 +29,11 @@ body {
     justify-content: space-between;
 }
 
+.Flex2 {
+    display: flex;
+    flex-direction: row;
+}
+
 .Botao {
     text-decoration: none;
     color: #fff;
@@ -65,7 +70,10 @@ header {
 
 label {
     font-size: 3em;
-    padding-right: 15px;
+    position: fixed;
+    top: 5px;
+    right: 15px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 nav ul {
@@ -98,6 +106,8 @@ nav ul li a {
 main {
     height: 75vh;
     background: url(img/HTML5CSS3-1500x600.png);
+    background-size: cover;
+    background-position: center;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -117,6 +127,41 @@ main h2 {
 main h1, main h2 {
     text-shadow: #000 0.2em 0.2em 0.1em;
 }
+
+/* Sobre */
+#sobre {
+    padding: 10px 10px 10px;
+    max-width: 100%;
+    background: url(img/background.png);
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+#texto-sobre {
+    color: #fff;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+#texto-sobre h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+#destaqueSobre {
+    display: none;
+}
+
+aside ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+aside ul li a {
+    color: #fff;
+}
+
 
 
 
@@ -211,6 +256,52 @@ main h1, main h2 {
 
     nav ul li a:hover {
         color: #c00;
+    }
+    
+    /* Sobre */
+    .container1 {
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    /* links */
+    .container2 {
+        display: flex;
+        justify-content: flex-end;
+        border: 2px solid #343538;
+        border-radius: 5px;
+        background-color: #6e0e0e;
+        float: left;
+    }
+
+    #links {
+        padding: 10px 10px;
+        
+    }
+
+    aside ul {
+        list-style: none;
+        margin-top: 30px;
+        height: 20vh;
+    }
+
+    aside ul li a {
+        color: #fff;
+    }
+
+    #sobre {
+        background-attachment: fixed;
+    }
+     
+    #destaqueSobre {
+        display: inline;
+    }
+
+    #destaqueSobre img {
+        border-radius: 50%;
+        margin-right: 30px;
+        margin-left: 10px;
+        margin-top: 10px;
     }
 
 }
